@@ -1,0 +1,10 @@
+#produtos, #resto, #but{
+    display: flex;
+    justify-content: space-around;
+}
+
+.livro {
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
