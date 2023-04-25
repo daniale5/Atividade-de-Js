@@ -5,6 +5,19 @@
     <title> Problema com objeto </title>
 </head>
 <body>
+    <p id="fil"></p>
+
+    <script>
+    const filme = {
+    titulo: "Jogos Vorazes",
+    anoLan: 2012,
+    dados: function() {
+        return this.titulo + " " + this.anoLan;
+    }
+    };
+
+    document.getElementById("fil").innerHTML = filme.dados();
+    </script>
 	<script src="objeto.js"></script>
 </body>
 </html>
