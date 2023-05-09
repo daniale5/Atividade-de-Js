@@ -23,7 +23,10 @@ let filme = {
 	}
 }
 
-console.log(filme.titulo)
-console.log(filme.anoLan)
+imprimirInfo: function() {
+    console.log("Título: "+ this.filme.titulo);
+    console.log("Ano de lançamento: "+ this.filme.anoLan);
+    console.log("Diretor: "+ this.diretor);
+    console.log("Nome do Principal: "+ this.filme.elenco.principal.nome);
+}
 
-console.log(filme.elenco.principal.nome);
