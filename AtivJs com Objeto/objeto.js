@@ -21,10 +21,16 @@ let filme = {
             atriz:"Woody Harrelson"
         }
 	}
+
 },
-    
-imprimirInfo = function() {
-    console.log("Título: "+ this.titulo);
-    console.log("Ano de lançamento: "+ this.filme.anoLan);
-    console.log("Diretor: "+ this.diretor);
-}
+
+imprimirInformacoes = function() {
+    console.log("Título: " + this.titulo);
+    console.log("Ano de Lançamento: " + this.anoLan);
+    console.log("Diretor: " + this.diretor);
+    console.log("Gênero: " + this.genero);
+    console.log("Elenco:");
+    console.log("- " + this.elenco.protagonista.nome + " como " + this.elenco.protagonista.atriz);
+    console.log("- " + this.elenco.interesseR.nome + " como " + this.elenco.interesseR.ator);
+  }
+
