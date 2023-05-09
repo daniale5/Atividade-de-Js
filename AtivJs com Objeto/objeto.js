@@ -27,5 +27,4 @@ imprimirInfo = function() {
     console.log("Título: "+ this.titulo);
     console.log("Ano de lançamento: "+ this.filme.anoLan);
     console.log("Diretor: "+ this.diretor);
-    console.log("Nome do Principal: "+ this.filme.elenco.principal.nome);
 }
